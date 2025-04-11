@@ -93,6 +93,7 @@ textarea
 #exampleFormControlInput1::placeholder
 {
     color: white;
+    opacity: 0.4;
 }
 
 #exampleFormControlTextarea1
@@ -101,9 +102,15 @@ textarea
     color: white;
 }
 
-#botao:hover
+#botao
 {
     background-color: black;
+    color: white;
+}
+
+#botao:hover
+{
+    background-color: blue;
     color: white;
 }
 
