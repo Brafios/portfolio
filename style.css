@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*
+{
+    font-family: "Viaoda Libre", serif;
+}
+
+main
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#projeto1
+{
+    width: 350px;
+    height: 250px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 1s, box-shadow 1s;
+    transform: scale(1);
+}
+
+#projeto2
+{
+    width: 350px;
+    height: 250px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 1s, box-shadow 1s;
+    transform: scale(1);
+}
+
+#projeto3
+{
+    width: 350px;
+    height: 250px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0s, box-shadow 1s;
+    transform: scale(1);
+}
+
+#projeto1:hover
+{
+    transform: scale(1.05); /* ou 1.1 se quiser mais impacto */
+    box-shadow: 1px 1px 7px black;
+}
+
+#projeto2:hover
+{
+    transform: scale(1.05); /* ou 1.1 se quiser mais impacto */
+    box-shadow: 1px 1px 7px black;   
+}
+
+#projeto3:hover
+{
+    transform: scale(1.05); /* ou 1.1 se quiser mais impacto */
+    box-shadow: 1px 1px 7px black; 
+}
+
+input
+{
+    border: 3px solid black;
+    border-radius: 1px;
+    box-shadow: 0px 4px 3px 1px black;
+}
+
+textarea
+{
+    border: 3px solid black;
+    border-radius: 1px;
+    box-shadow: 0px 4px 3px 1px black;
+}
+
+#exampleFormControlInput1
+{
+    color: white;
+    background-color: rgb(61, 62, 76);
+}
+
+#exampleFormControlInput1::placeholder
+{
+    color: white;
+}
+
+#exampleFormControlTextarea1
+{
+    background-color: rgb(61, 62, 76);
+    color: white;
+}
+
+#botao:hover
+{
+    background-color: black;
+    color: white;
+}
+
